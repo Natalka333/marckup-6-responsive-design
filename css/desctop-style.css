@@ -65,34 +65,34 @@ body {
 }
 
 /* Header */
-.page-header {
+/* .page-header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow:
     0 1px 6px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
     0 2px 1px 0 rgba(46, 47, 66, 0.08);
   background-color: #fff;
-}
+} */
 
-.page-header-container {
+/* .page-header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
+} */
 
-.page-nav {
+/* .page-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 452px;
-}
+} */
 
-.adress-list {
+/* .adress-list {
   display: flex;
   column-gap: 40px;
-}
+} */
 
-.logo-link {
+/* .logo-link {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -103,9 +103,9 @@ body {
 .logos-link {
   color: #2e2f42;
   margin-right: 76px;
-}
+} */
 
-.menu {
+/* .menu {
   display: flex;
   column-gap: 40px;
 }
@@ -129,11 +129,23 @@ body {
   color: #404bbf;
 }
 
-.active {
+.menu-link.active {
+  position: relative;
   color: #404bbf;
 }
 
-.active::after {
+.menu-link.active::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  left: 0px;
+  bottom: 0;
+  background-color: #404bbf;
+  border-radius: 2px;
+} */
+/* БЫЛО У МЕНЯ */
+/* .menu-link.active::after {
   content: "";
   display: block;
   position: absolute;
@@ -143,9 +155,9 @@ body {
   top: 69px;
   background-color: #404bbf;
   border-radius: 2px;
-}
+} */
 
-.adress-link-email {
+/* .adress-link-email {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -167,7 +179,7 @@ body {
 .adress-link-tel:hover,
 .adress-link-tel:focus {
   color: #404bbf;
-}
+} */
 
 /* Hero */
 .hero-section {
